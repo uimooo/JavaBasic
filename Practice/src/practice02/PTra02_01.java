@@ -10,7 +10,8 @@ public class PTra02_01 {
 	public static void main(String[] args) {
 
 		// ★ 20を5で割った値を出力してください
-
+		int a;
+		a = 20 / 5;
 
 		// ★ 126に13を掛けた値を出力してください
 
