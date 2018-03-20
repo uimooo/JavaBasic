@@ -46,17 +46,26 @@ public class PTra04_05 {
 			 */
 			if (cpuHand == 0) {
 				System.out.println("グー！");
-
+				if(myHand == 2) {
+					System.out.println("You Win");
+					break;
+				}
 
 
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
-
+				if(myHand == 0) {
+					System.out.println("You Win");
+					break;
+				}
 
 
 			} else {
 				System.out.println("パー！！");
-
+				if(myHand == 1) {
+					System.out.println("You Win");
+					break;
+				}
 
 
 			}
