@@ -45,13 +45,13 @@ public class PTra05_03 {
 
 			 switch (answer) {
 	            case "山":
-	               mountain=+1;
+	               mountain+=1;
 	                break;
 	            case "川":
-	            	river=+1;
+	            	river+=1;
 	            	break;
 	            case "海":
-	                ocean=+1;
+	                ocean+=1;
 	                break;
 	            default:
 	                System.out.println("無効票です");
