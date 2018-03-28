@@ -14,6 +14,16 @@ public class PTra07_04 {
 
 		// ★ 配列trumpに、[1,2,3,4,5,・・・・,52] を代入してください
 
+		int[]trump= new int[52];
+//		for(int i=0; i<trump.length; i++) {
+//				trump[0]=i;
+
+
+				int ran=(int)(Math.random()*52)+1;
+				System.out.println(ran);
+
+		}
+
 
 		// ★ 0～51の中からランダムで値を取得して、変数indexに代入してください
 
@@ -21,4 +31,4 @@ public class PTra07_04 {
 		// ★ 配列trumpのindex番目の中に入っている数字を出力してください
 
 	}
-}
+

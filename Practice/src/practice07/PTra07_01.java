@@ -1,4 +1,5 @@
 package practice07;
+
 /*
  * PTra07_01.java
  *   作成	LIKEIT	2017
@@ -19,6 +20,10 @@ public class PTra07_01 {
 
 
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
+		int[] array = {1,4,7,10,13};
+		for(int x : array) {
+			System.out.println(x);
+		}
 
 	}
 }

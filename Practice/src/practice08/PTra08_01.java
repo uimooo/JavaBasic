@@ -14,7 +14,7 @@ public class PTra08_01 {
 
 		// ★ 変数receiveを出力してください
 
-	}
+
 
 	/*
 	 * 以下の仕様でメソッドを作成しました
@@ -25,6 +25,11 @@ public class PTra08_01 {
 	 *
 	 * 100を返すメソッド
 	 */
+
+	int receive=number();
+	System.out.println(receive);
+	}
+
 	public static int number() {
 		return 100;
 	}
