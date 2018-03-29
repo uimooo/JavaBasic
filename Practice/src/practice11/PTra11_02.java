@@ -16,5 +16,8 @@ public class PTra11_02 {
 
 		// ★ ユーザが入力した文字列が、本情報のタイトル一部に含まれていた場合は、その本情報を出力してください
 
+		FileReaderClass book = new Book();
+
+		FileReaderClass.readBookDataFile();
 	}
 }
